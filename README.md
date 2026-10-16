@@ -1,5 +1,8 @@
 # track — трекер времени / лайфлог
 
+[![Release](https://img.shields.io/github/v/release/kostyk348/track?sort=semver&color=blue)](https://github.com/kostyk348/track/releases)
+[![Last commit](https://img.shields.io/github/last-commit/kostyk348/track?branch=master)](https://github.com/kostyk348/track/commits/master)
+
 Куда уходит время: активности в tagdb-записях (`.eml`), сводки по дням/неделям/
 тегам через X-Query с header-only scan. Ноль зависимостей, один бинарь.
 
@@ -17,14 +20,17 @@ cargo build --release   # ./target/release/track
 track init ~/.track
 
 # закрытый интервал
+
 track log ~/.track --tag work --note "emlbox" --start 1700000000 --end 1700003600
 
 # открытый интервал (удобно в терминале)
+
 track now ~/.track --tag deep_work --note "mime-os sync"
 ... работаешь ...
 track stop ~/.track        # -> stopped [deep_work] 42m 13s
 
 # сводки
+
 track day ~/.track                    # сегодня (UTC)
 track day ~/.track 2026-08-12         # конкретный день
 track week ~/.track
