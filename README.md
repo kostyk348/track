@@ -1,10 +1,18 @@
+<div align="center">
+
+<img src="docs/banner.svg" alt="track banner" width="1000">
+
 # track — трекер времени / лайфлог
+
+### Куда уходит время: активности в tagdb-записях (`.eml`), сводки по дням/неделям/ тегам через X-Query с header-only scan. Ноль зависимостей, один бинарь.
 
 [![Release](https://img.shields.io/github/v/release/kostyk348/track?sort=semver&color=blue)](https://github.com/kostyk348/track/releases)
 [![Last commit](https://img.shields.io/github/last-commit/kostyk348/track?branch=master)](https://github.com/kostyk348/track/commits/master)
 
-Куда уходит время: активности в tagdb-записях (`.eml`), сводки по дням/неделям/
-тегам через X-Query с header-only scan. Ноль зависимостей, один бинарь.
+</div>
+
+---
+
 
 Построен на [emlbox](https://github.com/kostyk348/mime-os) (eml-tag).
 
